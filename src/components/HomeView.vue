@@ -56,8 +56,8 @@
   .add-picture-button {
     position: fixed;
     right: 24px;
-    bottom: 24px;
-    z-index: 998;
+    bottom: 154px;
+    z-index: 98;
   }
   .take-picture-button {
     position: fixed;

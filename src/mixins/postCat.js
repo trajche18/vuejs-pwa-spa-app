@@ -5,7 +5,7 @@ const postCat = {
         {
           'url': catUrl,
           'comment': title,
-          'info': 'Posted by Charles on Tuesday',
+          'info': 'Posted by Trajche yesterday',
           'created_at': -1 * new Date().getTime()
         }
       ).then(

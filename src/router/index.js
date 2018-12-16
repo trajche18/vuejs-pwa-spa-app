@@ -4,6 +4,8 @@ import HomeView from '@/components/HomeView'
 import DetailView from '@/components/DetailView'
 import PostView from '@/components/PostView'
 import CameraView from '@/components/CameraView'
+import Test from '@/components/Test'
+import QuizQuestions from '@/components/QuizQuestions'
 
 Vue.use(Router)
 
@@ -25,9 +27,19 @@ export default new Router({
       component: PostView
     },
     {
+      path: '/test',
+      name: 'test',
+      component: Test
+    },
+    {
       path: '/camera',
       name: 'camera',
       component: CameraView
+    },
+    {
+      path: '/questions',
+      name: 'questions',
+      component: QuizQuestions
     }
   ]
 })

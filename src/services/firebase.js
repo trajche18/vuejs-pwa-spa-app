@@ -1,13 +1,14 @@
 import firebase from 'firebase'
 
 var config = {
-  apiKey: 'AIzaSyCqM9bPtHmERf7Zcf2kL-ktaJZu8711Rng',
-  authDomain: 'cropchat-50ff7.firebaseapp.com',
-  databaseURL: 'https://cropchat-50ff7.firebaseio.com',
-  projectId: 'cropchat-50ff7',
-  storageBucket: 'cropchat-50ff7.appspot.com',
-  messagingSenderId: '187222083715'
+  apiKey: 'AIzaSyDQz1yucwtyODCmbMduaPBvpgfKh2ptN8U',
+  authDomain: 'vuechat-a5cd7.firebaseapp.com',
+  databaseURL: 'https://vuechat-a5cd7.firebaseio.com',
+  projectId: 'vuechat-a5cd7',
+  storageBucket: 'vuechat-a5cd7.appspot.com',
+  messagingSenderId: '977897038103'
 }
+
 firebase.initializeApp(config)
 
 const database = firebase.database()
